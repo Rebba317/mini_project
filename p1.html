@@ -1,0 +1,226 @@
+<html>
+    <head>
+        <body>
+          <section>
+            <h1>CRAZY OFFERS</h1>
+            <img class="slides" src="m3.png" style="width:100%">
+            <img class="slides" src="m8.png" style="width:100%">
+        </section>
+        <h4 id="demo">Sale ends in</h4>
+        <p id="demo"></p>
+          
+          
+            
+            <img src="https://blog.myntra.com/wp-content/uploads/2019/07/Watches-on-Myntra_BMW.jpg" id="img" style="width: 464px; height: 244px; margin-top:10px; margin-left:28px";></div>
+            
+            
+            <img src="https://blog.myntra.com/wp-content/uploads/2019/07/Watches-on-Myntra.jpg" id="img" style="width: 464px; height: 244px;">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.L6wY8cDMgfnBb8dE7SYpEQAAAA&amp;pid=Api&amp;P=0" id="img" style="width: 464px; height: 244px; margin-right: 18px; ">
+            
+
+                <p class="STEAL">STEAL THE BIGGEST DEALS</p>
+              
+              </div>
+            <img src="https://images.freekaamaal.com/post_images/1542607071.PNG" id="img" style="width: 1458px; height: 281px; padding-top: 65px;">
+            <img alt="" style="margin-left: 28px;width: 464px; height: 244px; margin-top: 9px; margin-left: 28px;" class="" src="https://tse2.mm.bing.net/th?id=OIP.ym3uASxlLXaUV4qz6fXW8QHaHa&amp;pid=Api&amp;P=0" id="yui_3_5_1_1_1680552242138_1067" >
+            <img src="https://i.pinimg.com/originals/14/d2/fb/14d2fb07541a21610f92cf3f50389132.png" id="img" style="width: 464px; height: 244px;"></div>
+            <img src="https://images.freekaamaal.com/featured_images/large_103099_under999+Buy1Get1Free.jpg" id="img" style="width: 464px; height: 244px; margin-right: 18px;">
+            <h1>Grid Layout</h1>
+          
+
+            
+            <h2>SLAY ESSENTIALS</h2>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.tc52lLUZUTqz1ovqNzcUIAHaEN&amp;pid=Api&amp;P=0" id="img" style="width: 1350px; height: 300px; padding-left: 50px; ">
+            <img alt="" style=" width: 464px; height: 244px; margin-top: 20px; margin-left: 28px;" class="" src="https://tse1.mm.bing.net/th?id=OIP.WzhhiSP5dBCijN3SgRtTewHaFj&amp;pid=Api&amp;P=0" id="yui_3_5_1_1_1680553800342_683">
+            <img src="https://coreldrawdesign.com/resources/thumbnails/thumbnail-1607088350.jpg" id="img" style="width: 464px; height: 244px;margin-top: 20px; ">
+            <img src="https://i.pinimg.com/originals/88/de/fb/88defbe7ca11388db8585f1e88c772b1.jpg" id="img" style="width: 464px; height: 244px; margin-right: 18px; margin-top: 20px; ">
+        </body>
+    </head>
+    <style>
+      h4{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: red;
+    
+  }
+  
+        .STEAL {
+    
+    font-family: futura;
+    font-style: italic;
+    
+    width:100%;
+    ;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+    color:#313131;
+    font-size:45px;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation:colorchange 10s infinite alternate;
+    
+    
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: magenta;
+    }
+    
+    20% {
+      
+      color: orangered;
+    }
+    
+    30% {
+      
+      color: yellow;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: red;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
+  
+        h1{
+            text-align:center;
+            color:darkmagenta;
+            font-size: 28px;
+
+        }
+        h2{
+            text-align: center;
+        }
+        div {
+  width: 100px;
+  height: 50px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  transition: width 2s;
+}
+
+
+  
+  
+        h1{
+            text-align:center;
+
+        }
+        h2{
+            text-align: center;
+            
+        }
+        h4{
+          text-align: center;
+        }
+        div {
+  width: 100px;
+  height: 50px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  transition: width 2s;
+}
+
+#div1 {transition-timing-function: linear;}
+    </style>
+</html>
+<script type="text/javascript">
+  var index = 0;
+  change();
+
+  function change() {
+
+      
+      var x = document.getElementsByClassName('slides');
+
+      
+      for(var i = 0; i < x.length; i++) { 
+          x[i].style.display = "none"; 
+      }
+
+      
+      index++;
+
+      
+      if(index > x.length) { 
+          index = 1; 
+      }
+
+      
+      x[index - 1].style.display = "block";
+
+      
+      setTimeout(change, 3000);
+  }
+   
+var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime(); 
+
+
+var x = setInterval(function() {
+
+  
+  var now = new Date().getTime();
+    
+  
+  var distance = countDownDate - now;
+    
+
+  var days = Math.floor(distance / (1000 * 60 * 60 *888 ));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+  
+</script>

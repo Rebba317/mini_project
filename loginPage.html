@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
+        integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>login paget</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            outline: 0px;
+        }
+
+        .m_cont {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-color: white;
+        }
+        .inner_cont {
+            position: absolute;
+            width: 70%;
+            margin: auto;
+            align-items: center;
+            margin-left: 16%;
+            margin-top: 2%;
+            text-align: center;
+            background-color: transparent;
+        }
+        .inner_cont img {
+            width: 25%;
+            padding-top: 60px;
+        }
+
+        .inner_cont h2{
+            padding-top: 20px;
+            font-weight: 500;
+            font-size: 28px;
+            color: rgb(134, 134, 136);
+        }
+        .choose_code{
+            font-size: 17px;
+            padding: 9px;
+        }
+        #input_width{
+            width: 30%;
+        }
+        div input {
+            width: 38%;
+            height: 17px;
+            padding: 10px;
+            margin-top: 22px;
+            font-size: 16px;
+        }
+        .email_addres {
+            text-align: left;
+            padding-left: 310px;
+            padding-top: 20px;
+            color: rgb(36, 36, 236);
+            font-size: 20px;
+        }
+        .keep_logged {
+            text-align: left;
+            padding-left: 140px;
+            padding-top: 13px;
+            font-size: 22px;
+            color: rgb(172, 172, 172);
+        }
+        .keep_logged input{
+            margin-right: -123px;
+            size: 10px;
+        }
+        .sign_in {
+            width: 38%;
+            height: 22px;
+            padding: 13px;
+            margin-top: 22px;
+            margin-left: 300px;
+            font-size: 23px;
+            background-color: rgb(65, 65, 202);
+        }
+        .sign_in a{
+            text-decoration: none;
+            color: white;
+        }
+        .create_account {
+            width: 38%;
+            height: 22px;
+            padding: 13px;
+            margin-top: 18px;
+            margin-left: 300px;
+            color: rgb(67, 67, 226);
+            font-size: 23px;
+            border: 1px solid rgb(55, 55, 228);
+        }
+        .forget_pass {
+            color: white;
+            padding: 20px;
+            font-size: 23px;
+            box-sizing: border-box;
+        }
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="m_cont">
+        <video autoplay muted loop id="myVideo">
+            <source
+                src="./video.mp4" />
+        </video>
+        <div class="inner_cont">
+            <h1 style="color: rgb(85, 218, 32); font-size: 50px;">Myntra</h1>
+            <h2 style="color: white;">Account sign-in </h2>
+            <div>
+                <select class="choose_code">
+                    <option>+91</option>
+                    <option>+1</option>
+                    <option>+44</option>
+                    <option>+55</option>
+                </select>
+                <input id="input_width" type="text" placeholder="Enter your phone number"/>
+            </div>
+            <div><input type="password" placeholder="Enter password" /></div>
+            <p class="email_addres">Email Address</p>
+            <p class="keep_logged"><input type="checkbox">logged in for two weeks</p>
+            <div class="sign_in"><a href="index.html">sign-in</a></div>
+            <div class="create_account">create  accout</div>
+            <div class="forget_pass">forgot password</div>
+        </div>
+    </div>
+</body>
+</html>
